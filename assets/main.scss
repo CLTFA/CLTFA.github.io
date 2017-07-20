@@ -16,7 +16,8 @@ img {
     clear: both;
     display: block;
     margin: auto;
-    width: 80%;
+    position: relative;
+    width: 100%;
     height: auto;
 }
 
@@ -27,7 +28,9 @@ iframe {
 }
 
 h5 {
-    margin: auto;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
 }
 
 .site-header {
