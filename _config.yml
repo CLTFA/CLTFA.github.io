@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 澳大利亚中文教师联会
+subtitle: Chinese Language Teachers’ Federation of Australia
 # email: chineselanguagesite2017@hotmail.com
 # description: > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -31,6 +32,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,3 +45,11 @@ gems:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Number of posts shown at the home page.
+paginate: 5
+paginate_path: "/page:num/"
+
+# Add folder for permanent pages e.g. conferences, events...
+include: ["_pages"]
+permalink: /:title/
