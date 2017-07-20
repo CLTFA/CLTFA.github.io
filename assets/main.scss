@@ -8,26 +8,26 @@ body {
     width: 100%;
     margin: 0;
     min-height: 100%;
-		min-width: 550px;
-		background-image: url("https://g0flnw-ch3301.files.1drv.com/y4mWdzOCCl2mX2cebYR1Q0fbLEbM-7PQdMpuQ1NpHJFf8B6BtrsEBaqfw6Ene_C2GZNdRYUb_kbLYOEKznkElpY2rV9afiBPcqE-RiyZYARKxX0zCPQ2si6Ras9W9uPnClcPKLEZ34d4zYwyKwCNSck8qtJ2zg799FrF0kqGAKqUcYTZ22FcBVErwOQRf3gn4SJtXAQR0U2vsgE6q8uAx2Zww?width=256&height=192&cropmode=none");
+    min-width: 550px;
+    background-image: url("https://g0flnw-ch3301.files.1drv.com/y4mWdzOCCl2mX2cebYR1Q0fbLEbM-7PQdMpuQ1NpHJFf8B6BtrsEBaqfw6Ene_C2GZNdRYUb_kbLYOEKznkElpY2rV9afiBPcqE-RiyZYARKxX0zCPQ2si6Ras9W9uPnClcPKLEZ34d4zYwyKwCNSck8qtJ2zg799FrF0kqGAKqUcYTZ22FcBVErwOQRf3gn4SJtXAQR0U2vsgE6q8uAx2Zww?width=256&height=192&cropmode=none");
 }
 
 img {
-	  clear: both;
-	  display: block;
+    clear: both;
+    display: block;
     margin: auto;
-		width: 60%;
-		height: auto;
+    width: 60%;
+    height: auto;
 }
 
 iframe {
-	  clear: both;
-	  display: block;
-	  margin: auto;
+    clear: both;
+    display: block;
+    margin: auto;
 }
 
 .site-header {
-	  border-top: 0;
+    border-top: 0;
     top: 40px;
     background-image: url("https://6nlfua-ch3301.files.1drv.com/y4m3znTZA_FxUqsk7kjXb0U9dYoI8p1w_NLwAGVnFzpDMl_oDlmND1hYborcmYHJjtwsR3eUJkpNsdiE9MZIqIqfKVUHESetC6p_4kZ5sSEIRdbLYS_JzFsK2awD1KApVrC1qCaq6_17GRMTzsQ5BoRkT4rd4YEhyZI0cBxU8uudUmy2AhhPoTM2gBsp-dlrjWxzoPF9vmOcJI3ft3wHUlxLQ?width=660&height=495&cropmode=none");
     background-size:100% auto;
@@ -35,8 +35,8 @@ iframe {
 }
 
 .page-content {
-	  margin-top: 35px;
-		position: relative;
+    margin-top: 35px;
+    position: relative;
 }
 
 .site-footer {
@@ -48,85 +48,85 @@ iframe {
 }
 
 .site-nav {
-	  z-index: 999;
-	  border-bottom: 1px solid #e8e8e8;
+    z-index: 999;
+    border-bottom: 1px solid #e8e8e8;
     position:fixed;
     width:100%;
     top:0;
     left:0;
     height: 40px;
-		padding-left: 15px;
-		padding-right: 15px;
-		background-image: url("https://6nlfua-ch3301.files.1drv.com/y4m3znTZA_FxUqsk7kjXb0U9dYoI8p1w_NLwAGVnFzpDMl_oDlmND1hYborcmYHJjtwsR3eUJkpNsdiE9MZIqIqfKVUHESetC6p_4kZ5sSEIRdbLYS_JzFsK2awD1KApVrC1qCaq6_17GRMTzsQ5BoRkT4rd4YEhyZI0cBxU8uudUmy2AhhPoTM2gBsp-dlrjWxzoPF9vmOcJI3ft3wHUlxLQ?width=660&height=495&cropmode=none");
-		background-size:100% auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url("https://6nlfua-ch3301.files.1drv.com/y4m3znTZA_FxUqsk7kjXb0U9dYoI8p1w_NLwAGVnFzpDMl_oDlmND1hYborcmYHJjtwsR3eUJkpNsdiE9MZIqIqfKVUHESetC6p_4kZ5sSEIRdbLYS_JzFsK2awD1KApVrC1qCaq6_17GRMTzsQ5BoRkT4rd4YEhyZI0cBxU8uudUmy2AhhPoTM2gBsp-dlrjWxzoPF9vmOcJI3ft3wHUlxLQ?width=660&height=495&cropmode=none");
+    background-size:100% auto;
 }
 
 .site-nav .page-link {
-	  color: #e8e8e8;
+    color: #e8e8e8;
 }
 
 .site-nav .menu-icon > svg path {
-	  fill: #e8e8e8;
+    fill: #e8e8e8;
 }
 
 .menu-icon {
-	  float: left;
+    float: left;
 }
 
 .home-table {
-		margin: auto;
+    margin: auto;
     width: 100%;
 }
 
 .home-table tr td {
-	  width: 50%;
-		text-align: center;
+    width: 50%;
+    text-align: center;
 }
 
 .site-title-container {
-		position: relative;
-		top: 75px;
-		text-align: center;
+    position: relative;
+    top: 75px;
+    text-align: center;
 }
 
 .site-title {
-	  float: none;
+    float: none;
     color: #FFEFD5;
     font-size: 150%;
     font-weight:bold;
 }
 
 .site-subtitle {
-	  float: none;
+    float: none;
     color: #FFDAB9;
     font-size: 70%;
 }
 
 .post-list {
-	  margin: auto;
-		text-align: center;
+    margin: auto;
+    text-align: center;
 }
 
 .post-list-heading {
     color: #000033;
-		font-size: 150%;
-		font-weight: bold;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 .post-title {
-	  text-align: center;
-		font-weight:bold;
-		color: #000033;
+    text-align: center;
+    font-weight:bold;
+    color: #000033;
 }
 
 .post-link {
-	  color: #000066;
+    color: #000066;
 }
 
 .post-link:visited {
-	  color: #660000;
+    color: #660000;
 }
 
 .footer-heading {
-	  color: #000033;
+    color: #000033;
 }
