@@ -1,8 +1,0 @@
----
-layout: post
-title: "欢迎来到本网站！"
-date: 2017-07-16 22:34:30 +1000
-categories: jekyll update
----
-
-你好
