@@ -3,7 +3,7 @@ The website for CLTFA, the Chinese Language Teachers’ Federation of Australia.
 
 ### TODO:
 * Full fill with infomation on each page.
-* Documentation.
+* Documentation. Some in this README, some by email.
 * CNAME settings. Need to have the domain.
 * `<blockquote>` can have a better format.
 * Reconsider the image/document hosting service.
