@@ -6,58 +6,47 @@ layout: default
 
   {{ content }}
 
-  <table class="home-table"><tr>
-    <td>
-      <h1 class="post-list-heading">近期动态</h1>
-      <ul class="post-list">
-        {% for post in paginator.posts %}
-          <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+	<h1 class="post-list-heading">近期动态</h1>
+	<ul class="post-list">
+		{% for post in paginator.posts %}
+			<li>
+				{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+				<span class="post-meta">{{ post.date | date: date_format }}</span>
 
-            <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul>
+				<h2>
+					<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+				</h2>
+			</li>
+		{% endfor %}
+	</ul>
 
-      <!-- copied from http://yunfei1982.github.io/jekyll/2016/01/08/jekyll-paginate.html -->
-      {% if paginator.total_pages > 1 %}
-      <div class="pagination">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; 上一页</a>
-        {% else %}
-          <span>&laquo; 上一页</span>
-        {% endif %}
+	<!-- copied from http://yunfei1982.github.io/jekyll/2016/01/08/jekyll-paginate.html -->
+	{% if paginator.total_pages > 1 %}
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; 上一页</a>
+		{% else %}
+			<span>&laquo; 上一页</span>
+		{% endif %}
 
-        {% for page in (1..paginator.total_pages) %}
-          {% if page == paginator.page %}
-            <em>{{ page }}</em>
-          {% elsif page == 1 %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-          {% else %}
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          {% endif %}
-        {% endfor %}
+		{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+				<em>{{ page }}</em>
+			{% elsif page == 1 %}
+				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			{% else %}
+				<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			{% endif %}
+		{% endfor %}
 
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &raquo;</a>
-        {% else %}
-          <span>下一页 &raquo;</span>
-        {% endif %}
-      </div>
-      {% endif %}
-      <!-- end copy -->
-
-    </td>
-
-    <td>
-      <div>
-        <img src="https://utbqzg-ch3301.files.1drv.com/y4mbSF58I9CDePrCgBH-t_VCxt1CyETX1l22qgtgTdKYry-JocSam_i3gf9qyNARRPInvZgVZENKX5ZTpoCshEFsnqzNp0j9SiEsnk6WMtdTIzjP_uoC9UfJpVJRhPCdcyVfeIUPUTIFtf_Fs_sX9x5C5lIhg9W0w4JzMUroR4J9BiMzP0LGtH6dehoQPCPfrt8Mou_-biDbC_TcLAQzwH9mQ?width=637&height=1024&cropmode=none" width="637" height="1024" />
-      </div>
-    </td>
-  </tr></table>
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &raquo;</a>
+		{% else %}
+			<span>下一页 &raquo;</span>
+		{% endif %}
+	</div>
+	{% endif %}
+	<!-- end copy -->
 
   <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
 

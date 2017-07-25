@@ -8,8 +8,8 @@ body {
     width: 100%;
     margin: 0;
     min-height: 100%;
-    min-width: 550px;
-    background-image: url("https://g0flnw-ch3301.files.1drv.com/y4mWdzOCCl2mX2cebYR1Q0fbLEbM-7PQdMpuQ1NpHJFf8B6BtrsEBaqfw6Ene_C2GZNdRYUb_kbLYOEKznkElpY2rV9afiBPcqE-RiyZYARKxX0zCPQ2si6Ras9W9uPnClcPKLEZ34d4zYwyKwCNSck8qtJ2zg799FrF0kqGAKqUcYTZ22FcBVErwOQRf3gn4SJtXAQR0U2vsgE6q8uAx2Zww?width=256&height=192&cropmode=none");
+    // background-image: url("https://g0flnw-ch3301.files.1drv.com/y4mWdzOCCl2mX2cebYR1Q0fbLEbM-7PQdMpuQ1NpHJFf8B6BtrsEBaqfw6Ene_C2GZNdRYUb_kbLYOEKznkElpY2rV9afiBPcqE-RiyZYARKxX0zCPQ2si6Ras9W9uPnClcPKLEZ34d4zYwyKwCNSck8qtJ2zg799FrF0kqGAKqUcYTZ22FcBVErwOQRf3gn4SJtXAQR0U2vsgE6q8uAx2Zww?width=256&height=192&cropmode=none");
+    background-color: #FFEFD5;
 }
 
 img {
@@ -37,21 +37,23 @@ h5 {
     border-top: 0;
     top: 40px;
     background-image: url("https://6nlfua-ch3301.files.1drv.com/y4m3znTZA_FxUqsk7kjXb0U9dYoI8p1w_NLwAGVnFzpDMl_oDlmND1hYborcmYHJjtwsR3eUJkpNsdiE9MZIqIqfKVUHESetC6p_4kZ5sSEIRdbLYS_JzFsK2awD1KApVrC1qCaq6_17GRMTzsQ5BoRkT4rd4YEhyZI0cBxU8uudUmy2AhhPoTM2gBsp-dlrjWxzoPF9vmOcJI3ft3wHUlxLQ?width=660&height=495&cropmode=none");
+    // background-color: GREY;
+		// background-image: url("/grey-chinese-wallpaper.jpg");
     background-size:100% auto;
-    height: 250px;
+    min-height: 250px;
 }
 
 .page-content {
     margin-top: 35px;
     position: relative;
+		min-height: 250px;
 }
 
 .site-footer {
     text-align: right;
     width: 100%;
-    max-height: 30%;
-    position: relative;
-    bottom: 0;
+		max-height: 20px;
+		bottom: 0;
 }
 
 .site-nav {
@@ -65,6 +67,8 @@ h5 {
     padding-left: 15px;
     padding-right: 15px;
     background-image: url("https://6nlfua-ch3301.files.1drv.com/y4m3znTZA_FxUqsk7kjXb0U9dYoI8p1w_NLwAGVnFzpDMl_oDlmND1hYborcmYHJjtwsR3eUJkpNsdiE9MZIqIqfKVUHESetC6p_4kZ5sSEIRdbLYS_JzFsK2awD1KApVrC1qCaq6_17GRMTzsQ5BoRkT4rd4YEhyZI0cBxU8uudUmy2AhhPoTM2gBsp-dlrjWxzoPF9vmOcJI3ft3wHUlxLQ?width=660&height=495&cropmode=none");
+		// background-image: url("/grey-chinese-wallpaper.jpg");
+		background-color: GREY;
     background-size:100% auto;
 }
 
@@ -92,7 +96,7 @@ h5 {
 
 .site-title-container {
     position: relative;
-    top: 75px;
+    top: 35px;
     text-align: center;
 }
 
@@ -115,15 +119,21 @@ h5 {
 }
 
 .post-list-heading {
-    color: #000033;
+    text-align: center;
+    // color: #000033;
     font-size: 150%;
     font-weight: bold;
 }
 
 .post-title {
     text-align: center;
-    font-weight:bold;
-    color: #000033;
+    // font-weight:bold;
+    font-size: 24px;
+    // color: #000033;
+}
+
+.post-content p {
+    font-size: 18px;
 }
 
 .post-link {
@@ -135,5 +145,5 @@ h5 {
 }
 
 .footer-heading {
-    color: #000033;
+    color: #000000;
 }
